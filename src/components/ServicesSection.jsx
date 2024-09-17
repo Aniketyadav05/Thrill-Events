@@ -17,7 +17,7 @@ import logisticsIcon from '../assets/logistics.png';
 import manpowerIcon from '../assets/manpower.png';
 import productionIcon from '../assets/Production.png';
 import venueIcon from '../assets/venue.png';
-import planningIcon from '../assets/planning.png';
+import planningIcon from '../assets/Planning.png';
 
 const ServiceCard = ({ title, description, image, icon }) => {
   return (
