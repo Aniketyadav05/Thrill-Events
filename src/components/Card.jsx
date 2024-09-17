@@ -19,13 +19,16 @@ const Card = () => {
   return (
     <div className="flex flex-col items-center justify-center relative mb-10">
       {/* Main card */}
-      <div
-        className={`bg-[#7FBCD2] text-white w-64 h-64 rounded-lg shadow-lg flex items-center justify-center cursor-pointer transition-all duration-300 ease-in-out ${expanded ? ' h-16 mb-4 scale-105' : 'scale-105'} bg-opacity-40 backdrop-blur-lg border border-opacity-50 border-white relative overflow-hidden z-10`}
+      <motion.div
+        className={`bg-[#7FBCD2] text-white w-64 rounded-lg shadow-lg flex items-center justify-center cursor-pointer transition-all duration-500 ease-in-out bg-opacity-40 backdrop-blur-lg border border-opacity-50 border-white relative overflow-hidden z-10`}
         onClick={() => setExpanded(!expanded)}
+        animate={{ height: expanded ? '3rem' : '16rem' }} // Smooth height transition
       >
-        <h1 className='text-3xl font-extrabold'>OUR VENUES</h1>
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 animate-shine"></div>
-      </div>
+        <h1 className={`text-3xl font-extrabold transition-transform duration-500 `}>
+          OUR VENUES
+        </h1>
+        <div className={`absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 animate-shine ${expanded ? 'hidden' : 'block'}`}></div>
+      </motion.div>
 
       {/* Expanded cards */}
       {expanded && (
