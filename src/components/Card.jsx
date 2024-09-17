@@ -4,6 +4,8 @@ import G1 from '../assets/fairmont.jpeg';
 import G2 from '../assets/rambagh.jpeg';
 import G3 from '../assets/buena.jpeg';
 import G4 from '../assets/Leela.jpg';
+import G5 from '../assets/umaid.jpeg';
+import G6 from '../assets/meriden.jpeg';
 
 const Card = () => {
   const [expanded, setExpanded] = useState(false);
@@ -14,6 +16,8 @@ const Card = () => {
     { id: 2, info: 'Rambagh Palace', image: G2 },
     { id: 3, info: 'Buena Vista', image: G3 },
     { id: 4, info: 'Leela Palace', image: G4 },
+    { id: 5, info: 'Umaid Bhawan Palace', image: G5 },
+    { id: 6, info: 'Le Meriden', image: G6 },
   ];
 
   return (
