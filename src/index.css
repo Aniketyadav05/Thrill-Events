@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:  #A5F1E9;
+  overflow-x: hidden;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shine {
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.3) 75%);
+  background-size: 200% 100%;
+  animation: shine 2s infinite linear;
+}
+h1{
+  font-family: "Song Myung", serif;
+}
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+button {
+  font-family: "Song Myung", serif;
+}
