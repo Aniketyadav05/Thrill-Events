@@ -133,12 +133,12 @@ const Header = () => {
         </motion.a>
 
         {/* Chat Button */}
-        <NavLink to='https://wa.me/+919928819320' target='_blank'>
+        <a href='https://wa.me/+919928819320' target='_blank'>
           <motion.button
             className='bg-white border-2 border-black hover:bg-[#4ba2ff] hover:text-[#f6d86e] px-4 py-2 w-full rounded-lg text-black mb-6'>
             CHAT WITH US
           </motion.button>
-        </NavLink>
+        </a>
 
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-4">
