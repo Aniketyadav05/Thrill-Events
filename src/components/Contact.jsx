@@ -76,7 +76,7 @@ const Contact = () => {
           <div>
             <h2 className='uppercase font-bold text-lg md:text-xl mb-3'>Call us</h2>
             <p className='text-sm md:text-base'>Call our team Mon-Fri from 8am to 5pm</p>
-            <a href="tel:8989898989" className='underline flex items-center hover:text-[#4ffd4c] cursor-pointer mt-2'>
+            <a href="tel:+91 9928819320" className='underline flex items-center hover:text-[#4ffd4c] cursor-pointer mt-2'>
               <FaPhone className='rotate-90 mr-2' /> +91 9928819320
             </a>
           </div>

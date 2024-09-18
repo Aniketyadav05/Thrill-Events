@@ -26,7 +26,7 @@ const Card = () => {
       <motion.div
         className={`bg-[#7FBCD2] text-white w-64 rounded-lg shadow-lg flex items-center justify-center cursor-pointer transition-all duration-500 ease-in-out bg-opacity-40 backdrop-blur-lg border border-opacity-50 border-white relative overflow-hidden z-10`}
         onClick={() => setExpanded(!expanded)}
-        animate={{ height: expanded ? '3rem' : '16rem' }} // Smooth height transition
+        animate={{ height: expanded ? '16rem' : '16rem' }} // Smooth height transition
       >
         <h1 className={`text-3xl font-extrabold transition-transform duration-500 `}>
           OUR VENUES
