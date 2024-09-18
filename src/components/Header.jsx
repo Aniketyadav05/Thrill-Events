@@ -133,12 +133,15 @@ const Header = () => {
         </motion.a>
 
         {/* Chat Button */}
-        <a href='https://wa.me/+919928819320' target='_blank'>
+        <motion.a 
+        
+        href='https://wa.me/+919928819320' target='_blank'>
           <motion.button
+          
             className='bg-white border-2 border-black hover:bg-[#4ba2ff] hover:text-[#f6d86e] px-4 py-2 w-full rounded-lg text-black mb-6'>
             CHAT WITH US
           </motion.button>
-        </a>
+        </motion.a>
 
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-4">
@@ -196,12 +199,14 @@ const Header = () => {
         </motion.a>
 
         {/* Chat Button and Social Icons for larger screens */}
-        <NavLink to='https://wa.me/8302720065' target='_blank'>
+        <motion.a href='https://wa.me/+919928819320' target='_blank'>
           <motion.button
+          variants={hoverVariants}
+        whileHover="hover"
             className='bg-white border-2 border-black hover:bg-[#4ba2ff] hover:text-[#f6d86e] px-2 rounded-lg text-black mb-1'>
             CHAT WITH US
           </motion.button>
-        </NavLink>
+        </motion.a>
         <div className="flex space-x-4 items-center">
           <a className='text-white hover:text-[#f74ab4]' href="https://www.instagram.com/thrillevents_?igsh=YXZqMnFkcTA2dXRn">
             <FaInstagram size={24} />
