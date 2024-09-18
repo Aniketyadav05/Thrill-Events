@@ -68,7 +68,7 @@ const About = () => {
     { name: 'Kanish Joshi', info: 'Client Management' ,college:''},
     { name: 'Bhawani Singh', info: 'Logistic & Artist Management', college: 'Passed out from AWPEM'  },
     { name: 'Mitva Agarwal', info: 'Production & Hospitality', college: 'Passed out from AWPEM'  },
-    { name: 'Aniket Yadav', info: 'Web developer & Management',college:'' },
+    { name: 'Aniket Yadav', info: 'Front-end developer & Management',college:'' },
   ];
 
   const servicesData = [

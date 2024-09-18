@@ -15,12 +15,10 @@ const HeroPage = () => {
     <>
     
     <Hero />
-    
     <ServicesSection />
     <Services />
     <Working/>
-    
-    < Gallery/>
+    <Gallery/>
     <Card/>
     <Contact/>
     
