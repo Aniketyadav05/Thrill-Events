@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-blue-900 pt-6 h-[380px]'>
-      
+
       <div className='flex flex-col justify-center items-center lg:h-[350px] h-auto lg:w-full w-full'>
         {/* Logo */}
         <motion.img
@@ -28,7 +28,7 @@ const Footer = () => {
 
         {/* Address */}
         <p className='text-white w-full max-w-xs lg:max-w-md font-semibold mb-4 text-center'>
-          91, A Gaya Guru Ki Gali Sitaram Bazar Brahmpuri, Jaipur, Rajasthan, India
+          300 A, Shankar Nagar, Brahmpuri Road, Jaipur, Rajasthan, India
         </p>
 
         {/* Social Icons */}
