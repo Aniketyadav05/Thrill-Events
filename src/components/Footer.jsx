@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
           <a
             className='underline flex items-center hover:text-[#25D366] '
-            href="https://wa.me/9928819320"
+            href='https://wa.me/+919928819320'
             target='_blank'
           >
             <FaWhatsapp className='text-white text-3xl lg:text-4xl hover:text-[#25D366]' />
