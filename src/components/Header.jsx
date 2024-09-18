@@ -207,11 +207,11 @@ const Header = () => {
             CHAT WITH US
           </motion.button>
         </motion.a>
-        <div className="flex space-x-4 items-center">
-          <a className='text-white hover:text-[#f74ab4]' href="https://www.instagram.com/thrillevents_?igsh=YXZqMnFkcTA2dXRn">
+        <div className="flex space-x-4 items-center ">
+          <a className='text-white hover:text-[#f74ab4]'target='_blank' href="https://www.instagram.com/thrillevents_?igsh=YXZqMnFkcTA2dXRn">
             <FaInstagram size={24} />
           </a>
-          <a className='text-white hover:text-[#3d7cca]' href="https://www.facebook.com/share/p/RwMeATS1CNK4NSUk/?mibextid=oFDknk">
+          <a className='text-white hover:text-[#3d7cca]'target='_blank' href="https://www.facebook.com/share/p/RwMeATS1CNK4NSUk/?mibextid=oFDknk">
             <FaFacebook size={24} />
           </a>
         </div>
