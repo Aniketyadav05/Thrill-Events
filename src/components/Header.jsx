@@ -113,7 +113,7 @@ const Header = () => {
           href="/Work"
           className="text-[#F5F5F5] block mb-4 text-lg hover:text-[#f6d86e] hover:cursor-pointer font-md"
         >
-          Portfolio
+          Memoir
         </motion.a>
         <motion.a
           variants={hoverVariants}
@@ -121,7 +121,7 @@ const Header = () => {
           href="/About"
           className="text-[#F5F5F5] block mb-4 text-lg hover:text-[#f6d86e] hover:cursor-pointer font-md"
         >
-          About
+          About Us
         </motion.a>
         <motion.a
           variants={hoverVariants}
