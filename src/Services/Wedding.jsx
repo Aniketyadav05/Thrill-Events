@@ -58,27 +58,7 @@ const Wedding = () => {
     
   ];
 
-  const { count: teamMembers, ref: teamRef } = useAnimatedCount(30);
-  const { count: experiences, ref: experienceRef } = useAnimatedCount(200);
-  const { count: events, ref: eventRef } = useAnimatedCount(100);
-  const slidesPerViewConfig = {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 8,
-    },
-    480: {
-      slidesPerView: 1,
-      spaceBetween: 12,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 16,
-    },
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 20,
-    },
-  };
+ 
   const slidesPerViewConfig1 = {
     320: {
       slidesPerView: 1,
@@ -108,7 +88,7 @@ const Wedding = () => {
     <div className='bg-[#7FBCD2] '>
     
 
-      <div className="bg-[#7FBCD2] lg:pb-0 px-6 justify-center items-center lg:px-24 pb-10">
+      <div className="bg-[#7FBCD2] lg:pb-0 px-6 justify-center items-center lg:px-24">
        
         <div className="bg-[#7FBCD2] lg:pb-20 px-6 flex flex-col lg:flex-row-reverse justify-center items-center md:px-0 lg:px-12 ">
         
@@ -123,7 +103,7 @@ const Wedding = () => {
               freeMode={true}
               pagination={{ clickable: true }}
               modules={[FreeMode, Pagination, Autoplay]}
-              className="w-1/2 px-2 md:px-1 lg:px-0"
+              className="lg:w-1/2 w-72 lg:px-0"
             >
               {servicesData.map((item) => (
                 <SwiperSlide key={item.id} className="relative">
@@ -159,9 +139,9 @@ const Wedding = () => {
             )}
           </div>
 
-          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 ml-12 mt-44">
+          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 lg:ml-12 ml-0 lg:mt-48">
             <motion.p
-              className="text-white font-semibold md:mb-10 lg:mb-0  w-full text-xl "
+              className="text-white font-semibold md:mb-10 lg:mb-0  lg:w-full text-xl "
               initial="initial"
               animate="animate"
               variants={variants}

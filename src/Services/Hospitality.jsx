@@ -97,7 +97,7 @@ const Hospitality = ({ hideButton, description }) => {
               freeMode={true}
               pagination={{ clickable: true }}
               modules={[FreeMode, Pagination, Autoplay]}
-              className="w-1/2 px-2 md:px-1 lg:px-2"
+              className="lg:w-1/2 w-72  lg:px-0"
             >
               {servicesData.map((item) => (
                 <SwiperSlide key={item.id} className="relative">
@@ -133,7 +133,7 @@ const Hospitality = ({ hideButton, description }) => {
             )}
           </div>
 
-          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 mr-16 mt-28">
+          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 lg:mr-12 mr-0 lg:mt-36">
             <motion.p
               className="text-white font-semibold md:mb-10 lg:mb-0 w-full text-xl "
               initial="initial"

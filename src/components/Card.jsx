@@ -26,10 +26,10 @@ const Card = () => {
       <motion.div
         className={`bg-[#7FBCD2] text-white w-64 rounded-lg shadow-lg flex items-center justify-center cursor-pointer transition-all duration-500 ease-in-out bg-opacity-40 backdrop-blur-lg border border-opacity-50 border-white relative overflow-hidden z-10`}
         onClick={() => setExpanded(!expanded)}
-        animate={{ height: expanded ? '16rem' : '16rem' }} // Smooth height transition
+        animate={{ height: expanded ? '6rem' : '12rem' }} // Smooth height transition
       >
         <h1 className={`text-3xl font-extrabold transition-transform duration-500 `}>
-          OUR VENUES
+          {expanded ? 'OUR VENUES' : 'TAP TO REVEAL'}
         </h1>
         <div className={`absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-30 animate-shine ${expanded ? 'hidden' : 'block'}`}></div>
       </motion.div>
@@ -63,11 +63,11 @@ const Card = () => {
 
           {/* Single-column layout for mobile */}
           <motion.div
-            className="md:hidden grid grid-cols-2 gap-4"
+            className="md:hidden grid grid-cols-2 gap-4 px-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            {cardsData.slice(0, 2).map((card) => (
+            {cardsData.slice(0, 6).map((card) => (
               <motion.div
                 key={card.id}
                 className="w-full h-48 bg-gray-300 rounded-lg shadow-lg relative cursor-pointer"

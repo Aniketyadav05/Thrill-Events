@@ -114,7 +114,7 @@ const Artist = ({ hideButton, description }) => {
         <div className="bg-[#7FBCD2] lg:pb-20 px-6 flex flex-col lg:flex-row-reverse justify-center items-center md:px-0 lg:px-12 ">
         
           <div className="w-full lg:w-[60%] flex flex-col items-center justify-center mb-10 lg:mb-0">
-          <h1 className="text-3xl lg:text-4xl font-bold text-black pt-16 pb-4">
+          <h1 className="text-3xl lg:text-4xl font-bold text-black pt-16 pb-4 text-center">
             ARTIST MANAGEMENT
           </h1>
             <Swiper
@@ -124,7 +124,7 @@ const Artist = ({ hideButton, description }) => {
               freeMode={true}
               pagination={{ clickable: true }}
               modules={[FreeMode, Pagination, Autoplay]}
-              className="w-1/2 px-2 md:px-1 lg:px-2"
+              className="lg:w-1/2 w-72  lg:px-0"
             >
               {servicesData.map((item) => (
                 <SwiperSlide key={item.id} className="relative">
@@ -134,7 +134,8 @@ const Artist = ({ hideButton, description }) => {
                   >
                     <div
                       className="absolute inset-0 bg-cover bg-center"
-                      style={{ backgroundImage: `url(${item.image})` }}
+                      style={{ backgroundImage: `url(${item.image})`,
+                        backgroundSize: '100% 130%' }}
                     />
                     <div className="absolute inset-0 bg-black opacity-30 transition-opacity duration-300" />
                   </div>
@@ -160,9 +161,9 @@ const Artist = ({ hideButton, description }) => {
             )}
           </div>
 
-          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 ml-12 mt-28">
+          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 lg:ml-12 ml-0 lg:mt-44">
             <motion.p
-              className="text-white font-semibold md:mb-10 lg:mb-0 w-full text-xl "
+              className="text-white font-semibold md:mb-10 lg:mb-0  lg:w-full text-xl "
               initial="initial"
               animate="animate"
               variants={variants}

@@ -71,7 +71,7 @@ const Logistics = ({ hideButton, description }) => {
        
         <div className="bg-[#7FBCD2] lg:pb-20 px-6 flex flex-col lg:flex-row justify-center items-center md:px-0 lg:px-12">
           <div className="w-full lg:w-[60%] flex flex-col items-center justify-center mb-10 lg:mb-0">
-          <h1 className="text-3xl lg:text-4xl font-bold text-black pt-16 pb-4">
+          <h1 className="text-3xl lg:text-4xl font-bold text-black pt-0 lg:pt-16 pb-4">
             LOGISTICS
           </h1>
             <Swiper
@@ -81,7 +81,7 @@ const Logistics = ({ hideButton, description }) => {
               freeMode={true}
               pagination={{ clickable: true }}
               modules={[FreeMode, Pagination, Autoplay]}
-              className="w-1/2 px-2 md:px-1 lg:px-2"
+              className="lg:w-1/2 w-72  lg:px-0"
             >
               {servicesData.map((item) => (
                 <SwiperSlide key={item.id} className="relative">
@@ -117,7 +117,7 @@ const Logistics = ({ hideButton, description }) => {
             )}
           </div>
 
-          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 mr-20 mt-28">
+          <div className="w-full lg:w-[100%] md:mb-10 lg:mb-0 lg:mr-10 mr-0 lg:mt-44">
             <motion.p
               className="text-white font-semibold md:mb-10 lg:mb-0 w-full text-xl "
               initial="initial"
@@ -138,7 +138,7 @@ const Logistics = ({ hideButton, description }) => {
             <a href="/LogicsticsMain">
             <motion.button
             variants={zoomInVariants}
-            className='bg-transparent border-2 mt-4 border-black hover:bg-[#85D1D1] hover:text-black px-4 sm:px-6 py-2 rounded-xl text-black font-bold'
+            className='bg-transparent border-2 mt-4 border-black hover:bg-[#85D1D1] hover:text-black px-4 sm:px-6 py-2 rounded-xl text-black font-bold mb-4'
           >
             Read More
           </motion.button>
