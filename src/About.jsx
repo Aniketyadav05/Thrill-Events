@@ -63,12 +63,12 @@ const About = () => {
     { image: Aniket },
   ];
   const infoData = [
-    { name: 'Rishu Jaiswal', info: 'Management & Planning' },
-    { name: 'Palak Goyal', info: 'Luxury wedding at a destination resort.' },
-    { name: 'Kanish Joshi', info: 'Client Management' },
-    { name: 'Bhawani Singh', info: 'Logistic & Artist Management' },
-    { name: 'Mitva Agarwal', info: 'Production & Hospitality' },
-    { name: 'Aniket Yadav', info: 'Web developer & Management' },
+    { name: 'Rishu Jaiswal', info: 'Management & Planning', college: 'Passed out from AWPEM' },
+    { name: 'Palak Goyal', info: 'Luxury wedding at a destination resort.', college: 'Passed out from AWPEM'  },
+    { name: 'Kanish Joshi', info: 'Client Management' ,college:''},
+    { name: 'Bhawani Singh', info: 'Logistic & Artist Management', college: 'Passed out from AWPEM'  },
+    { name: 'Mitva Agarwal', info: 'Production & Hospitality', college: 'Passed out from AWPEM'  },
+    { name: 'Aniket Yadav', info: 'Web developer & Management',college:'' },
   ];
 
   const servicesData = [

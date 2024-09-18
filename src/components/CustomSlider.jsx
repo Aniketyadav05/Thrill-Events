@@ -33,6 +33,7 @@ const CustomSlider = ({ images = [], infoData = [], slidesPerViewConfig = {} }) 
             <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 transition-opacity duration-500 group-hover:opacity-100 text-center p-4 text-white">
               <h3 className="text-xl font-bold">{infoData[index]?.name || 'Name'}</h3>
               <p className="text-sm mt-2">{infoData[index]?.info || 'Information'}</p>
+              <p className="text-sm mt-2">{infoData[index]?.college || ''}</p>
             </div>
           </div>
         </SwiperSlide>

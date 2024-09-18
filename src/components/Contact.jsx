@@ -68,7 +68,7 @@ const Contact = () => {
             <a className='underline flex items-center hover:text-[#f74ab4] cursor-pointer' href="https://www.instagram.com/thrillevents_?igsh=YXZqMnFkcTA2dXRn">
               <FaInstagram className='mr-2' /> Message Us on Instagram
             </a>
-            <a href='mailto:thrillevents1@gmail.com@gmail.com' target='_blank' className='underline flex items-center hover:text-[#f74a4a] cursor-pointer mt-2'>
+            <a href='mailto:thrillevents1@gmail.com' target='_blank' className='underline flex items-center hover:text-[#f74a4a] cursor-pointer mt-2'>
               <FaMailBulk className='mr-2' /> Mail Us
             </a>
           </div>
