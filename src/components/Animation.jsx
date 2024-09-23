@@ -1,4 +1,4 @@
-import { stagger } from "framer-motion";
+
 
 export const slideUpVariants = {
   hidden: { y: 50, opacity: 0 },
@@ -7,7 +7,7 @@ export const slideUpVariants = {
     opacity: 1,
     transition: {
       staggerChildren: 0.3, // Reducing this value creates a more seamless stagger
-      duration: 1, // Shorter duration for each element
+      duration: 3, // Shorter duration for each element
       ease: [0.25, 0.8, 0.25, 1], // Using a custom cubic bezier for smoother easing
     },
   },

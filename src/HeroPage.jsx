@@ -9,7 +9,9 @@ import Contact from './components/Contact'
 
 import { BrowserRouter} from 'react-router-dom';
 import ServicesSection from './components/ServicesSection'
+
 import Card from './components/Card'
+import Drop from './components/Drop'
 const HeroPage = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const HeroPage = () => {
     <Gallery/>
     <Card/>
     <Contact/>
+    
     
     </>
   )

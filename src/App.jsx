@@ -9,7 +9,7 @@ import About from './About'
 import Provides from './Provides'
 
 import ArtistMain from './Services/ArtistMain'
-
+import Drop from './components/Drop'
 import WeddingMain from './Services/WeddingMain'
 
 import LogicsticsMain from './Services/LogicsticsMain'
@@ -29,6 +29,7 @@ const App = () => {
         <Route path='/WeddingMain' element={<WeddingMain />} />
         <Route path='/ArtistMain' element={<ArtistMain />} />
       </Routes>
+      <Drop/>
       <Footer />
     </BrowserRouter>
   )
