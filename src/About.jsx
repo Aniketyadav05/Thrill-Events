@@ -11,7 +11,6 @@ import 'swiper/css/autoplay';
 import { Autoplay, FreeMode, Pagination } from 'swiper/modules';
 import { FaCircle } from 'react-icons/fa';
 import kanish from './assets/Team/kannu.jpg'
-import Aniket from './assets/Team/Ani.jpg'
 import Mitva from './assets/Team/Mitva1.jpg'
 import Bhawani from './assets/Team/Bhawani1.jpg'
 import Rishu from './assets/Team/Rishu.jpg'
@@ -60,7 +59,7 @@ const About = () => {
     { image: kanish },
     { image: Bhawani },
     { image: Mitva },
-    { image: Aniket },
+    { image:  },
   ];
   const infoData = [
     { name: 'Rishu Jaiswal', info: 'Management & Planning', college: 'Passed out from AWPEM' },
