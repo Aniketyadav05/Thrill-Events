@@ -59,6 +59,7 @@ const About = () => {
     { image: kanish },
     { image: Bhawani },
     { image: Mitva },
+    { image: "bg-black" },
     
   ];
   const infoData = [
