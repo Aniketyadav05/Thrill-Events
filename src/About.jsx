@@ -59,7 +59,7 @@ const About = () => {
     { image: kanish },
     { image: Bhawani },
     { image: Mitva },
-    { image:  },
+    
   ];
   const infoData = [
     { name: 'Rishu Jaiswal', info: 'Management & Planning', college: 'Passed out from AWPEM' },
